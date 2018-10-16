@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Peer Connection</title>
+	<style>
+		#localVideo{
+			width: 460px;
+			height: 320px;
+			background-color: #333333
+		}
+		#remoteVideo{
+			width: 460px;
+			height: 320px;
+			background-color: #333333
+		}
+			
+	</style>
+</head>
+<body>
+	<table border="1" width="100%">
+		<tr>
+			<th>
+				Local Video
+			</th>
+			<th>
+				Remote Video
+			</th>
+		</tr>
+		<tr>
+			<td>
+				<video id="video1" autoplay></video>
+			</td>
+			<td>
+				<video id="video2" autoplay></video>
+			</td>
+		</tr>
+		<tr>
+			<td align = "center">
+				<div>
+					<button id="startButton">START</button>
+					<button id="callButton">CALL</button>
+					<button id="hangupButton">HANGUP</button>
+				</div>
+			</td>
+			<td>
+				
+			</td>
+		</tr>
+	</table>
+
+	<script src = "localPeerConnection_fromweb.js"></script>
+</body>
+</html>
