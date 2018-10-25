@@ -34,7 +34,7 @@ var sdpCOnstraints = {};
 
 var room = prompt('Enter room name: ');
 
-var socket = io.connect("http://192.168.43.44:8181");
+var socket = io.connect("http://10.158.3.13:8181");
 
 if(room != ''){
 	console.log('create or join room', room);
