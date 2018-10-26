@@ -41,16 +41,16 @@ if(room != ''){
 	socket.emit('create or join', room);
 }
 
-//var constraints = {video: true, audio:true};
-var constraints ={
+var constraints = {video: true, audio:true};
+/*var constraints ={
 	video:
 	{
 		mediaSource: "screen",
-		width:{max:'720'},
-		height: {max:'480'},
+		//width:{max:'720'},
+		//height: {max:'280'},
 		framerate: {max: '10'}
-	}
-	}
+	},
+	audio: true};*/
 
 function handleUserMedia(stream){ //getuserMedia
 	console.log('Getting webcam video');
